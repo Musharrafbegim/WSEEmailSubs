@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+table {
+  border: 0;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  background-color: #e5e5e5;
+  padding-bottom: 40px;
+}
+
+.webkit {
+  max-width: 600px;
+  background-color: #ffffff;
+}
+
+.outer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+.headerTD {
+  background: linear-gradient(
+    262.27deg,
+    rgba(97, 117, 202, 0) -47.53%,
+    rgba(97, 117, 202, 0.1512) 43.46%,
+    rgba(137, 130, 255, 0.42) 129.17%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+
+.logo {
+  width: 180px;
+}
+
+.textHi {
+  text-align: center;
+}
+
+.paragraphText {
+  text-align: justify;
+  padding: 80px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.links {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.socials {
+  width: 2em;
+}
+
+.linking {
+  text-decoration: underline;
+  color: #f07867;
+}
+
+.photoYT {
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+.photoCenter {
+  text-align: center;
+}
+
+.imageCenter {
+  width: 123px;
+  height: 123px;
+}
+
+#imageCenter {
+  text-align: center;
+}
+
+.textCenter {
+  text-align: center;
+  color: #6782f2;
+  font-weight: bold;
+}
+
+.subText {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 400px) {
+}
