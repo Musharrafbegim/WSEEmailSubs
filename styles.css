@@ -229,55 +229,55 @@ img {
 }
 @media screen and (max-width: 400px) {
   .logo {
-    width: 130px;
+    width: 150px;
   }
   .textHi {
-    font-size: 20px;
+    font-size: 25px;
   }
   .paragraphText {
-    font-size: 9px;
+    font-size: 10px;
   }
   .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 55px;
+    height: 60px;
   }
 
   .socials {
-    width: 0.8em;
+    width: 1.3em;
   }
 
   .photoYT {
-    max-width: 2500px;
+    max-width: 300px;
     border-radius: 20px;
   }
 
   .imageCenter {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
   .container .card {
     position: relative;
-    width: 120px;
-    height: 100px;
-    margin: 20px;
+    width: 150px;
+    height: 130px;
+    margin: 25px;
   }
   .container .card .content h3 {
     text-align: center;
-    top: 30px;
-    right: 20px;
-    font-size: 10px;
+    top: 35px;
+    right: 25px;
+    font-size: 12px;
     pointer-events: none;
   }
 
   .container .card .content p {
-    font-size: 9px;
+    font-size: 10px;
     z-index: 1;
   }
 
   .container .card .content img {
-    width: 1em;
+    width: 1.5em;
   }
 }
